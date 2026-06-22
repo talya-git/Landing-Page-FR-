@@ -6,7 +6,7 @@ export function About() {
     <section id="about" className="relative border-b border-border/50 py-14 md:py-20">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:gap-16 md:px-8">
         {/* Photo */}
-        <Reveal className="order-2 md:order-1">
+        <Reveal className="order-2 md:order-2">
           <div className="group relative mx-auto max-w-sm" style={{ animation: "float-slow 6s ease-in-out infinite" }}>
             <div className="absolute -inset-3 rounded-2xl border border-gold/25" />
             <div className="absolute -inset-1.5 rounded-2xl bg-gradient-to-br from-gold/40 via-transparent to-gold/10 opacity-60 blur-[2px]" />
@@ -27,7 +27,7 @@ export function About() {
         </Reveal>
 
         {/* Text */}
-        <Reveal className="order-1 md:order-2" delay={120}>
+        <Reveal className="order-1 md:order-1" delay={120}>
           <span className="inline-flex items-center gap-3 text-base font-semibold uppercase tracking-[0.3em] text-gold sm:text-lg">
             <span className="h-px w-6 bg-gold" />
             Qui sommes-nous

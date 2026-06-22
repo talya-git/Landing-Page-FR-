@@ -11,25 +11,6 @@ export function Solution() {
   return (
     <section id="solution" className="relative py-14 md:py-20">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:gap-16 md:px-8">
-        {/* Video */}
-        <Reveal>
-          <div className="relative">
-            <div className="absolute -inset-2 -z-10 rounded-3xl bg-gold/10 blur-2xl" />
-            <div className="overflow-hidden rounded-2xl border border-border shadow-2xl">
-              <video
-                className="aspect-[9/13] w-full object-cover sm:aspect-[4/5]"
-                autoPlay
-                muted
-                loop
-                playsInline
-                poster="/media/luxury-interior.png"
-              >
-                <source src="/media/video2.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </Reveal>
-
         {/* Text */}
         <Reveal delay={120}>
           <span className="inline-flex items-center gap-3 text-base font-semibold uppercase tracking-[0.3em] text-gold sm:text-lg">
@@ -55,6 +36,25 @@ export function Solution() {
                 </div>
               </div>
             ))}
+          </div>
+        </Reveal>
+
+        {/* Video */}
+        <Reveal>
+          <div className="relative">
+            <div className="absolute -inset-2 -z-10 rounded-3xl bg-gold/10 blur-2xl" />
+            <div className="overflow-hidden rounded-2xl border border-border shadow-2xl">
+              <video
+                className="aspect-[9/13] w-full object-cover sm:aspect-[4/5]"
+                autoPlay
+                muted
+                loop
+                playsInline
+                poster="/media/luxury-interior.png"
+              >
+                <source src="/media/video2.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </Reveal>
       </div>
