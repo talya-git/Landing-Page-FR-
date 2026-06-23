@@ -33,7 +33,7 @@ export default function Page() {
         href="#contact"
         className="fixed inset-x-4 bottom-4 z-40 flex items-center justify-center rounded-full bg-gold py-3.5 text-sm font-semibold text-primary-foreground shadow-2xl shadow-gold/30 lg:hidden"
       >
-        לתיאום שיחת ייעוץ אישית
+        Planifier une consultation personnelle
       </a>
     </main>
   )

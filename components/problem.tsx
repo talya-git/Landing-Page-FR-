@@ -7,7 +7,7 @@ const pains = [
   { icon: Languages, text: "Barrières linguistiques et différences culturelles dans les affaires" },
   { icon: HelpCircle, text: "Incertitude quant à la fiabilité des professionnels locaux" },
   { icon: MapPin, text: "Prendre des décisions critiques à des milliers de kilomètres" },
-  { icon: Briefcase, text: "Le fardeau d'être votre propre « chef de projet » à distance" },
+  { icon: Briefcase, text: "La responsabilité d'être votre propre « chef de projet » à distance" },
 ]
 
 export function Problem() {

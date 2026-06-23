@@ -28,7 +28,7 @@ const services = [
     num: "04",
     title: "Entrepreneurs et exécution",
     subtitle: "Gestion et supervision à chaque étape",
-    items: ["Sélection d'entrepreneurs et contrôle qualité", "Gestion du budget et des délais", "Supervision continue"],
+    items: ["Sélection d'entrepreneurs et contrôle qualité", "Gestion du budget et des délais", "Supervision continue tout au long du projet"],
   },
   {
     icon: ChefHat,
