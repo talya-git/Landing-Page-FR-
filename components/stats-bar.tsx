@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from "react"
 
 const stats = [
-  { value: 31, suffix: "", label: "Années d'excellence en immobilier de luxe" },
-  { value: 2000, suffix: "+", label: "Clients satisfaits en Israël et dans le monde" },
-  { value: 30, suffix: "+", label: "Fournisseurs de premier plan en Israël" },
+  { value: 31, suffix: "", label: "Années d'excellence en immobilier" },
+  { value: 2500, suffix: "+", label: "Clients satisfaits en Israël et dans le monde" },
+  { value: 50, suffix: "+", label: "Prestataires et fournisseurs recommandés" },
 ]
 
 function useCountUp(target: number, run: boolean, duration = 1600) {

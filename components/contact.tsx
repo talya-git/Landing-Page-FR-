@@ -1,5 +1,5 @@
 import { Reveal } from "@/components/reveal"
-import { Phone, Mail } from "lucide-react"
+import { Phone, Mail, Globe } from "lucide-react"
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -24,42 +24,48 @@ const CONTACTS = [
   },
   {
     label: "Email",
-    sub: "marketing@orencohengroup.com",
-    href: "mailto:marketing@orencohengroup.com",
+    sub: "atoz@orencohengroup.com",
+    href: "mailto:atoz@orencohengroup.com",
     icon: Mail,
+  },
+  {
+    label: "Notre site",
+    sub: "Département A-Z",
+    href: "https://www.orencohengroup.com/he/a-z/",
+    icon: Globe,
   },
 ]
 
 export function Contact() {
   return (
     <section id="contact" className="relative py-14 md:py-20">
-      <div className="mx-auto max-w-3xl px-5 md:px-8">
+      <div className="mx-auto max-w-5xl px-5 md:px-8">
         <Reveal className="text-center">
           <img src="/media/a-z.png" alt="A-Z by Oren Cohen Group" className="mx-auto h-20 w-auto" />
           <h2 className="mt-7 font-heading text-3xl font-medium leading-tight tracking-tight text-balance text-gold-gradient sm:text-4xl md:text-5xl">
             Parlez avec notre équipe A-Z dès aujourd'hui
           </h2>
           <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-            Que vous commenciez tout juste à explorer le marché immobilier de luxe à Jérusalem ou que vous travailliez déjà avec nous, choisissez le moyen le plus pratique pour nous contacter et nous serons ravis de vous accompagner.
+            Que vous commenciez à explorer le marché immobilier et les possibilités à Jérusalem, ou que vous travailliez déjà avec nous, choisissez le moyen le plus pratique pour nous contacter et nous serons ravis de vous accompagner.
           </p>
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
             {CONTACTS.map((c) => (
               <a
                 key={c.label}
                 href={c.href}
                 target={c.href.startsWith("http") ? "_blank" : undefined}
                 rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="group hover-lift flex flex-col items-center gap-3 rounded-2xl border border-border bg-card/60 px-4 py-7 text-center shadow-lg backdrop-blur-sm hover:-translate-y-1 hover:border-gold/50 hover:shadow-gold/10"
+                className="group hover-lift flex flex-col items-center gap-3 rounded-2xl border border-border bg-card/60 px-6 py-7 text-center shadow-lg backdrop-blur-sm hover:-translate-y-1 hover:border-gold/50 hover:shadow-gold/10"
               >
                 <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold transition-transform duration-500 group-hover:scale-110">
                   <c.icon className="h-7 w-7" />
                 </span>
                 <span className="flex flex-col">
                   <span className="font-heading text-lg font-semibold text-foreground">{c.label}</span>
-                  <span className="mt-1 text-sm text-muted-foreground">{c.sub}</span>
+                  <span className="mt-1 text-xs text-muted-foreground whitespace-nowrap">{c.sub}</span>
                 </span>
               </a>
             ))}

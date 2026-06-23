@@ -35,7 +35,7 @@ const services = [
     num: "05",
     title: "Cuisines, menuiserie et finitions",
     subtitle: "Là où votre maison prend son caractère",
-    items: ["Cuisines sur mesure et menuiserie", "Céramique, revêtements et sanitaires", "Coordination complète des fournisseurs"],
+    items: ["Cuisines sur mesure et menuiserie haut de gamme", "Céramique, revêtements et sanitaires", "Coordination complète des fournisseurs"],
   },
 ]
 
@@ -56,7 +56,7 @@ export function Services() {
             Pourquoi travailler avec nous ?
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            Un réseau de professionnels soigneusement sélectionnés, avec une expérience éprouvée dans l'accompagnement d'acheteurs sur des projets de luxe premium à Jérusalem.
+            Un réseau de professionnels soigneusement sélectionnés, avec une expérience éprouvée dans l'accompagnement d'acheteurs sur des projets premium à Jérusalem.
           </p>
         </Reveal>
 
@@ -87,7 +87,7 @@ export function Services() {
             <div className="flex h-full flex-col items-center justify-center rounded-2xl border border-gold/30 bg-gold/5 p-7 text-center">
               <img src="/media/a-z.png" alt="A-Z" className="mb-5 h-16 w-auto" />
               <p className="font-heading text-xl font-bold text-balance text-foreground">
-                Vous envisagez d'acheter ou êtes déjà client ? Laissez-nous tout gérer.
+                Vous envisagez d'acheter ou de rénover ? Déjà client ? Laissez-nous tout gérer.
               </p>
               <a
                 href="#contact"

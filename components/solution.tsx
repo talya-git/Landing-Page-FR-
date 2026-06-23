@@ -2,7 +2,7 @@ import { Reveal } from "@/components/reveal"
 import { UserCheck, MapPinned, Layers } from "lucide-react"
 
 const points = [
-  { icon: UserCheck, title: "Réseau d'experts sélectionnés", text: "Des professionnels triés sur le volet avec un parcours éprouvé auprès de nos clients." },
+  { icon: UserCheck, title: "Réseau d'experts sélectionnés", text: "Des professionnels triés sur le volet, chaleureusement recommandés par nos anciens clients." },
   { icon: MapPinned, title: "Tout sous un même toit", text: "Juridique, design, financier, fournisseurs, importateurs et gestion immobilière." },
   { icon: Layers, title: "Accompagnement fluide et sécurisé", text: "Chaque étape est supervisée par notre équipe, uniquement dans votre intérêt." },
 ]
@@ -21,7 +21,7 @@ export function Solution() {
             Alors, qu'est-ce que A-Z ?
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            A-Z est un service complet couvrant chaque aspect de l'immobilier de luxe à Jérusalem : du soutien juridique au design, en passant par le financement, la connexion directe avec les fournisseurs et importateurs, jusqu'à la gestion immobilière. Nous veillons à ce que chaque étape soit fluide, sécurisée et gérée par les meilleurs professionnels.
+            A-Z est un service complet couvrant chaque aspect de votre parcours immobilier à Jérusalem : du soutien juridique au financement, en passant par la planification et le design au plus haut niveau, avec une connexion directe aux fournisseurs locaux et importateurs sélectionnés — sans intermédiaires et à des prix que vous ne trouverez nulle part ailleurs. Nous veillons à ce que chaque étape soit fluide, sécurisée et gérée par les meilleurs professionnels, chaleureusement recommandés par nos anciens clients.
           </p>
 
           <div className="mt-8 flex flex-col gap-4">

@@ -30,16 +30,18 @@ export function Hero() {
           className="font-heading text-5xl font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-7xl md:text-[5.25rem]"
           style={{ animation: "fade-up 0.9s ease 0.1s both" }}
         >
-          Vous rêvez d'acquérir
+          Vous envisagez d'acheter ou
           <br />
-          un bien de luxe à Jérusalem ?
+          de rénover à Jérusalem ?
         </h1>
 
         <p
           className="mt-7 max-w-2xl text-pretty text-base leading-relaxed text-foreground/90 sm:text-lg"
           style={{ animation: "fade-up 0.9s ease 0.25s both" }}
         >
-          <span className="font-semibold">A-Z</span> par le groupe Oren Cohen est un service complet et exclusif qui vous accompagne à chaque étape de votre parcours d'acquisition immobilière de luxe à Jérusalem. Juridique, design, financier, fournisseurs et importateurs — nous sommes à vos côtés sur tous les aspects.
+          <span className="font-semibold">A-Z</span> par Oren Cohen Group met à votre disposition un accompagnement personnalisé et professionnel avec les meilleurs experts et fournisseurs soigneusement sélectionnés qui vous guideront à chaque étape de votre acquisition ou rénovation à Jérusalem.
+          <br />
+          De la vision à la planification détaillée, jusqu'à une exécution parfaite — à chaque étape, jusqu'au moindre détail.
         </p>
         <p
           className="mt-4 font-heading text-lg text-gold-soft sm:text-xl"
