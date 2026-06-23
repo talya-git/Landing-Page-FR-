@@ -1,4 +1,4 @@
-import { Reveal } from "@/components/reveal"
+﻿import { Reveal } from "@/components/reveal"
 import { Users, HelpCircle, Languages, ShieldAlert, MapPin, Briefcase } from "lucide-react"
 
 const pains = [
@@ -44,10 +44,11 @@ export function Problem() {
 
         <Reveal className="mt-14 text-center" delay={120}>
           <p className="font-heading text-xl text-balance text-gold-soft sm:text-2xl">
-            Quelqu'un en qui vous pouvez avoir confiance — expérimenté et profondément enraciné dans cette ville.
+            Quelqu'un en qui vous pouvez avoir confiance - expérimenté et profondément enraciné dans cette ville.
           </p>
         </Reveal>
       </div>
     </section>
   )
 }
+

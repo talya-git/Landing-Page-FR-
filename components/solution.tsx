@@ -1,4 +1,4 @@
-import { Reveal } from "@/components/reveal"
+﻿import { Reveal } from "@/components/reveal"
 import { UserCheck, MapPinned, Layers } from "lucide-react"
 
 const points = [
@@ -21,7 +21,7 @@ export function Solution() {
             Alors, qu'est-ce que A-Z ?
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            A-Z est un service complet couvrant chaque aspect de votre parcours immobilier à Jérusalem : du soutien juridique au financement, en passant par la planification et le design au plus haut niveau, avec une connexion directe aux fournisseurs locaux et importateurs sélectionnés — sans intermédiaires et à des prix que vous ne trouverez nulle part ailleurs. Nous veillons à ce que chaque étape soit fluide, sécurisée et gérée par les meilleurs professionnels, chaleureusement recommandés par nos anciens clients.
+            A-Z est un service complet couvrant chaque aspect de votre parcours immobilier à Jérusalem : du soutien juridique au financement, en passant par la planification et le design au plus haut niveau, avec une connexion directe aux fournisseurs locaux et importateurs sélectionnés - sans intermédiaires et à des prix que vous ne trouverez nulle part ailleurs. Nous veillons à ce que chaque étape soit fluide, sécurisée et gérée par les meilleurs professionnels, chaleureusement recommandés par nos anciens clients.
           </p>
 
           <div className="mt-8 flex flex-col gap-4">
@@ -61,3 +61,4 @@ export function Solution() {
     </section>
   )
 }
+

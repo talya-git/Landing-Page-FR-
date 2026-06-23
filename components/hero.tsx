@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 export function Hero() {
   return (
@@ -22,7 +22,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-5 text-center">
-        <div className="mb-6" style={{ animation: "fade-up 0.8s ease both" }}>
+        <div className="mt-12 mb-6" style={{ animation: "fade-up 0.8s ease both" }}>
           <img src="/media/a-z.png" alt="A-Z by Oren Cohen Group" className="mx-auto h-40 sm:h-48 md:h-56 w-auto drop-shadow-[0_2px_16px_rgba(212,175,55,0.3)]" />
         </div>
 
@@ -41,7 +41,7 @@ export function Hero() {
         >
           <span className="font-semibold">A-Z</span> par Oren Cohen Group met à votre disposition un accompagnement personnalisé et professionnel avec les meilleurs experts et fournisseurs soigneusement sélectionnés qui vous guideront à chaque étape de votre acquisition ou rénovation à Jérusalem.
           <br />
-          De la vision à la planification détaillée, jusqu'à une exécution parfaite — à chaque étape, jusqu'au moindre détail.
+          De la vision à la planification détaillée, jusqu'à une exécution parfaite - à chaque étape, jusqu'au moindre détail.
         </p>
         <p
           className="mt-4 font-heading text-lg text-gold-soft sm:text-xl"
@@ -65,3 +65,4 @@ export function Hero() {
     </section>
   )
 }
+

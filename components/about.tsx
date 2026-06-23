@@ -1,4 +1,4 @@
-import { Reveal } from "@/components/reveal"
+﻿import { Reveal } from "@/components/reveal"
 
 
 export function About() {
@@ -33,10 +33,10 @@ export function About() {
             Qui sommes-nous
           </span>
           <h2 className="mt-4 font-heading text-3xl font-bold leading-tight tracking-[-0.04em] text-balance text-gold-gradient sm:text-4xl md:text-5xl">
-            Acheter un appartement n'est pas qu'une transaction — c'est un voyage profondément personnel.
+            Acheter un appartement n'est pas qu'une transaction - c'est un voyage profondément personnel.
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            Chez Oren Cohen Group, nous considérons l'acquisition immobilière comme un parcours personnel et nous nous engageons à vous offrir une expérience fluide et professionnelle à chaque étape — pour que vous vous sentiez en confiance et serein. De la planification financière initiale aux considérations juridiques, jusqu'à la concrétisation de votre vision.
+            Chez Oren Cohen Group, nous considérons l'acquisition immobilière comme un parcours personnel et nous nous engageons à vous offrir une expérience fluide et professionnelle à chaque étape - pour que vous vous sentiez en confiance et serein. De la planification financière initiale aux considérations juridiques, jusqu'à la concrétisation de votre vision.
           </p>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
             Ayant accompagné des milliers d'acquéreurs issus des communautés juives du monde entier et d'Israël au cours des trois dernières décennies, nous avons acquis une expérience qui nous permet de rendre le processus d'achat professionnel et agréable, vous menant à votre pendaison de crémaillère avec le sourire.
@@ -46,3 +46,4 @@ export function About() {
     </section>
   )
 }
+
