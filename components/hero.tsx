@@ -32,7 +32,7 @@ export function Hero() {
         >
           Vous envisagez d'acheter ou
           <br />
-          de rénover à Jérusalem ?
+          <span className="whitespace-nowrap">de rénover à Jérusalem ?</span>
         </h1>
 
         <p
