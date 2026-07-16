@@ -28,7 +28,7 @@ export function SiteHeader() {
         scrolled ? "border-b border-border/60 bg-background/85 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3.5 md:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3 md:gap-4 md:px-8">
         <a href="#about" className="flex items-center gap-3">
           <img src="/media/logo.png" alt="Oren Cohen Group" className="h-11 w-11 rounded-full md:h-12 md:w-12" />
           <span className="hidden flex-col leading-tight sm:flex">

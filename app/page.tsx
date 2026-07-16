@@ -31,9 +31,9 @@ export default function Page() {
       {/* Mobile sticky CTA */}
       <a
         href="#contact"
-        className="fixed inset-x-4 bottom-4 z-40 flex items-center justify-center rounded-full bg-gold py-3.5 text-sm font-semibold text-primary-foreground shadow-2xl shadow-gold/30 lg:hidden"
+        className="fixed inset-x-3 bottom-3 z-40 flex items-center justify-center rounded-full bg-gold py-3.5 text-sm font-semibold text-primary-foreground shadow-2xl shadow-gold/30 lg:hidden"
       >
-        Planifier une consultation personnelle
+        Consultation gratuite
       </a>
     </main>
   )

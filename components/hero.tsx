@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 export function Hero() {
   return (
@@ -27,16 +27,16 @@ export function Hero() {
         </div>
 
         <h1
-          className="font-heading text-5xl font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-7xl md:text-[5.25rem]"
+          className="font-heading text-2xl font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-5xl md:text-[5.25rem]"
           style={{ animation: "fade-up 0.9s ease 0.1s both" }}
         >
           Vous envisagez d'acheter ou
           <br />
-          <span className="whitespace-nowrap">de rénover à Jérusalem ?</span>
+          <span >de rénover à Jérusalem ?</span>
         </h1>
 
         <p
-          className="mt-7 max-w-2xl text-pretty text-base leading-relaxed text-foreground/90 sm:text-lg"
+          className="mt-7 max-w-2xl px-4 text-pretty text-sm leading-relaxed text-foreground/90 sm:px-0 sm:text-lg"
           style={{ animation: "fade-up 0.9s ease 0.25s both" }}
         >
           <span className="font-semibold">A-Z</span> par Oren Cohen Group met à votre disposition un accompagnement personnalisé et professionnel avec les meilleurs experts et fournisseurs soigneusement sélectionnés qui vous guideront à chaque étape de votre acquisition ou rénovation à Jérusalem.
