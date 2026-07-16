@@ -27,7 +27,7 @@ export function Hero() {
         </div>
 
         <h1
-          className="font-heading text-2xl font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-5xl md:text-[5.25rem]"
+          className="font-heading text-[2rem] font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-5xl md:text-[5.25rem]"
           style={{ animation: "fade-up 0.9s ease 0.1s both" }}
         >
           Vous envisagez d'acheter ou
